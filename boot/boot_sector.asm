@@ -41,8 +41,8 @@ BEGIN_PM:
 
 
 BOOT_DRIVE db 0 ; It is a good idea to store it in memory because 'dl' may get overwritten
-MSG_REAL_MODE db "Started mOS in 16-bit Real Mode", 0
-MSG_PROT_MODE db "Landed mOS in 32-bit Protected Mode", 0
+MSG_REAL_MODE db "Starting mOS in 16-bit Real Mode", 0
+MSG_PROT_MODE db "mOS Started in 32-bit Protected Mode", 0
 MSG_LOAD_KERNEL db "Loading mOS kernel into memory", 0
 MSG_RETURNED_KERNEL db "Error Occurred. Returning from kernel", 0
 
