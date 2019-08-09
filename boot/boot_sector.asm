@@ -1,4 +1,3 @@
-; Identical to lesson 13's boot sector, but the %included files have new paths
 [org 0x7c00]
 KERNEL_OFFSET equ 0x1000 ; The same one we used when linking the kernel
 
