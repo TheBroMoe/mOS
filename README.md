@@ -8,7 +8,7 @@ This was a fun personal Project based on reading the OS-Dev [Document](http://ww
 if that doesn't work, you can follow the instructions given [here](https://wiki.osdev.org/GCC_Cross-Compiler#Preparing_for_the_build)
 3. enter the command `source path.sh`. This will be a required step every time you create a new terminal process to run mOS, or alternatively you can save the $PATH in your .bashrc file
 4. Compile and start mOS by running `./boot.sh` and the QEMU terminal will pop up as shown in the image below
-Alternatively you can enter `make` to compile the program and `make run` to run the program. You can even run `make debug debug` to run mOS in debug mode which uses gdb.
+Alternatively you can enter `make` to compile the program and `make run` to run the program. You can even run `make debug` to run mOS in debug mode which uses gdb.
 
 <img src="https://github.com/TheBroMoe/mOS/blob/master/docs/images/mOS.png"></img>
 ## Currently Implemented:
